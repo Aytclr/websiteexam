@@ -1,0 +1,62 @@
+* {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./img/galactic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.aytc-div {
+  flex: 1;
+  margin-left: 50px;
+  color: rgb(209, 74, 21);
+  text-shadow: 5px 5px 10px;
+}
+
+.ul-div {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.ul-div ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  color: rgb(103, 245, 255);
+}
+
+.ul-div ul li {
+  margin: 0 15px;
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search input[type="text"] {
+  border: 2px solid orange;
+  border-right: none;
+}
+.search input[type="search"] {
+  margin-left: 0px;
+  margin-right: 150px;
+  border: 2px solid orange;
+  border-left: none;
+}
