@@ -71,11 +71,14 @@ body {
 #search {
   color: aquamarine;
 }
-/* .evently {
-  justify-content: space-evenly;
-  border: 3px solid orange;
-  float: left;
-} */
+
+.main{
+  /* border: 3px solid orange; */
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
 
 article {
   border: 3px solid orange;
@@ -83,10 +86,10 @@ article {
   border-radius: 30px;
   width: 30%;
   height: 600px;
-  float: left;
-  margin-top: 50px;
-  margin-left: 50px;
-  padding: 30px;
+  padding: 20px;
+  position: absolute;
+  top: 50px;
+  left: 150px;
 }
 
 .article-h1 {
@@ -121,12 +124,64 @@ button {
 
 .login {
   border: 3px solid orange;
+  /* background-color: rgba(26, 26, 26, 0.521); */
   backdrop-filter: blur(5px);
   border-radius: 30px;
   width: 30%;
   height: 600px;
-  float: right;
-  margin-top: 50px;
-  margin-right: 50px;
-  padding: 30px;
+  padding: 50px;
+  position: absolute;
+  top: 50px;
+  right: 150px;
+  text-align: center;
+}
+
+#loginhere2{
+  background-color: orange;
+  width: 80%;
+  height: 30px;
+  text-align: center;
+  
+  margin: auto;
+  border-radius: 20px;
+  margin-bottom: 45px;
+  font-size: 1.4rem;
+}
+
+.loginhere2 input{
+
+  width: 80%;
+  height: 55px;
+  background: transparent;
+  border-bottom: 1px solid orange;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 1px; 
+  margin-top: 20px;
+}
+.loginhere2 input:hover{
+  background-color: transparent;
+  border-bottom: 1px solid rgb(219, 177, 99);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.loginhere2 input:focus{
+  outline: none;
+}
+
+.dont{
+  margin: 30px 0 ;
+  font-size: 1.3rem;
+  
+}
+.singup{
+
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  
 }
