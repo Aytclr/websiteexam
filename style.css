@@ -71,6 +71,11 @@ body {
 #search {
   color: aquamarine;
 }
+/* .evently {
+  justify-content: space-evenly;
+  border: 3px solid orange;
+  float: left;
+} */
 
 article {
   border: 3px solid orange;
@@ -112,4 +117,16 @@ button {
   height: 40px;
   margin-top: 30px;
   color: white;
+}
+
+.login {
+  border: 3px solid orange;
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+  width: 30%;
+  height: 600px;
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
+  padding: 30px;
 }
